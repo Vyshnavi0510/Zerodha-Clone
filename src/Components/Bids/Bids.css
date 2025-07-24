@@ -1,0 +1,72 @@
+.bids{
+    overflow-y: hidden;
+}
+.bids-container {
+    display: flex;
+    gap: 4px;
+    margin: 3px 2.2rem;
+    margin-bottom: 0px;
+    overflow-y: hidden;
+}
+.bids-right-container {
+    width: 100%;
+    background-color: rgba(34, 32, 32, 0.646);
+    padding: 1rem;
+    overflow: hidden;
+
+}
+
+.bids-right-container p {
+    color: rgba(255, 255, 255, 0.738);
+    font-size: 18px;
+}
+
+.right-bids-table {
+    height: 88vh !important;
+    overflow: hidden;
+}
+
+.leftTable {
+    background-color: rgba(34, 32, 32, 0.646);
+    padding: 10px;
+    width: 40%;
+}
+
+.apply-btn {
+    background-color: rgb(45, 103, 239);
+    padding: 5px 20px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.bids-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+.bids-input-field input {
+    padding-left: 0px;
+    border: none;
+
+}
+
+.bids-input-field {
+    display: flex;
+    align-items: center;
+    border: 1px solid #3d3d3d;
+    border-radius: 4px;
+    width: 130px;
+    height: 30px;
+    gap: 10px;
+    padding-left: 5px;
+}
+
+.bids-input-field .bids-search-icon {
+    color: rgba(255, 255, 255, 0.642);
+    /* padding-left: 10px; */
+    margin-top: 4px;
+
+}
