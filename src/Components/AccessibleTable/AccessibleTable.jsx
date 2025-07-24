@@ -1,7 +1,6 @@
-import * as React from 'react';
+import * as React from "react";
 
-import './AccessibleTable.css'
-
+import "./AccessibleTable.css";
 
 const tabledata = [
   {
@@ -49,16 +48,16 @@ const tabledata = [
     avg: "8.89%",
     ltp: "323.10",
   },
-
 ];
 
 export default function AccessibleTable() {
   return (
-
     <table className="table-container">
       <thead>
         <tr>
-          <th>Default <span>(7)</span></th>
+          <th>
+            Default <span>(7)</span>
+          </th>
         </tr>
       </thead>
       <tbody>
@@ -69,11 +68,9 @@ export default function AccessibleTable() {
             <td>{data.qty}</td>
             <td>{data.avg}</td>
             <td>{data.ltp}</td>
-
           </tr>
         ))}
       </tbody>
     </table>
   );
-
 }
