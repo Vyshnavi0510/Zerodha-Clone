@@ -1,47 +1,44 @@
-
-.watchlist{
-    display: flex;
-    justify-content: space-between;
+.watchlist {
+  display: flex;
+  justify-content: space-between;
 }
-.p1{
-    font-size: 14px;
-    color:   #757272;
+.p1 {
+  font-size: 14px;
+  color: #757272;
 }
-.p2{
-    font-size: 13px;
-    color: rgba(0, 110, 255, 0.942);
+.p2 {
+  font-size: 13px;
+  color: rgba(0, 110, 255, 0.942);
 }
-.input-field input{
-    width: 65%;
-    padding: 7px 20px 7px 0px;
-    border: none;
-    
+.input-field input {
+  width: 65%;
+  padding: 7px 20px 7px 0px;
+  border: none;
 }
-.input-field{
-    display: flex;
-    align-items: center;
-    border: 1px solid #3d3d3d;
-    border-radius: 4px;
-    width: 100%;
-    gap: 15px;
-    padding: 1px 0px;
-    margin-bottom: 5px;
+.input-field {
+  display: flex;
+  align-items: center;
+  border: 1px solid #3d3d3d;
+  border-radius: 4px;
+  width: 100%;
+  gap: 15px;
+  padding: 1px 0px;
+  margin-bottom: 5px;
 }
-.input-field .search-icon{
-    margin: 4px 0px 0px 0px;
-    color: rgba(255, 255, 255, 0.57);
-    padding-left: 10px;
-
+.input-field .search-icon {
+  margin: 4px 0px 0px 0px;
+  color: rgba(255, 255, 255, 0.57);
+  padding-left: 10px;
 }
-.ctrl{
-    font-size: 13px;
-    width: 15%;
-    color: #787777;
-    border:1px solid #3d3d3d;
-    padding: 5px 8px;
-    background-color: rgba(0, 0, 0, 0.255);
+.ctrl {
+  font-size: 13px;
+  width: 15%;
+  color: #787777;
+  border: 1px solid #3d3d3d;
+  padding: 5px 8px;
+  background-color: rgba(0, 0, 0, 0.255);
 }
-.menu{
-    padding: 10px;
-    color: rgba(240, 248, 255, 0.59);
+.menu {
+  padding: 10px;
+  color: rgba(240, 248, 255, 0.59);
 }

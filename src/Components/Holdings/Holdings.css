@@ -1,119 +1,115 @@
-
 .holdings-container {
-    display: flex;
-    gap: 4px;
-    margin: 3px 2.2rem;
-    margin-bottom: 0px;
-    color: #fff;
-    justify-content: center;
-    overflow: hidden;
+  display: flex;
+  gap: 4px;
+  margin: 3px 2.2rem;
+  margin-bottom: 0px;
+  color: #fff;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .LeftTable {
-    background-color: rgba(34, 32, 32, 0.646);
-    padding: 10px;
+  background-color: rgba(34, 32, 32, 0.646);
+  padding: 10px;
 }
 
 .right-content {
-    width: 100%;
-    padding: 2px 1.5rem;
-    background-color: rgba(34, 32, 32, 0.646);
+  width: 100%;
+  padding: 2px 1.5rem;
+  background-color: rgba(34, 32, 32, 0.646);
 }
 
 .section1 {
-    display: flex;
-    margin: 10px;
-    border-bottom: 1px solid #3d3d3d;
-    padding-bottom: 1rem;
-    gap: 10px;
+  display: flex;
+  margin: 10px;
+  border-bottom: 1px solid #3d3d3d;
+  padding-bottom: 1rem;
+  gap: 10px;
 }
 
 .section1 p {
-    flex: 1;
-    font-size: 19px;
+  flex: 1;
+  font-size: 19px;
 }
 
 .section1 ul {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    margin-top: 5px;
-    font-size: 13px;
-    color: rgb(61, 131, 237);
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+  font-size: 13px;
+  color: rgb(61, 131, 237);
 }
 
 .section2 {
-    display: flex;
-    justify-content: space-between;
-    /* margin-bottom: 1rem; */
-    padding: 1rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid #3d3d3d;
-    overflow-y: hidden;
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 1rem; */
+  padding: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #3d3d3d;
+  overflow-y: hidden;
 }
 
 .content1,
 .content2,
 .content3,
 .content4 {
-    color: rgb(162, 160, 160);
-    font-size: 13px;
+  color: rgb(162, 160, 160);
+  font-size: 13px;
 }
 
 .search-container input {
-    width: 100px;
-    height: 30px;
-    background-color: #555;
-
+  width: 100px;
+  height: 30px;
+  background-color: #555;
 }
 
 .p-5 {
-    font-weight: 500;
-    color: rgba(3, 241, 3, 0.715);
+  font-weight: 500;
+  color: rgba(3, 241, 3, 0.715);
 }
 
 .PL {
-    color: rgba(3, 203, 3, 0.703) !important;
-    font-size: 13px !important;
+  color: rgba(3, 203, 3, 0.703) !important;
+  font-size: 13px !important;
 }
 
 .net,
 .day {
-    font-size: 11px !important;
-    color: rgba(3, 203, 3, 0.703) !important;
+  font-size: 11px !important;
+  color: rgba(3, 203, 3, 0.703) !important;
 }
 
 .holdings-1 {
-    display: flex;
-    justify-content: space-between;
-    /* padding: 1rem; */
+  display: flex;
+  justify-content: space-between;
+  /* padding: 1rem; */
 }
 
 .holdings-input-field input {
-    padding-left: 0px;
-    border: none;
-
+  padding-left: 0px;
+  border: none;
 }
 
 .holdings-input-field {
-    display: flex;
-    align-items: center;
-    border: 1px solid #3d3d3d;
-    border-radius: 4px;
-    width: 130px;
-    height: 30px;
-    gap: 10px;
-    padding-left: 5px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #3d3d3d;
+  border-radius: 4px;
+  width: 130px;
+  height: 30px;
+  gap: 10px;
+  padding-left: 5px;
 }
 
 .holdings-input-field .holdings-search-icon {
-    color: rgba(255, 255, 255, 0.642);
-    margin-top: 4px;
-
+  color: rgba(255, 255, 255, 0.642);
+  margin-top: 4px;
 }
 
 .TableContainer {
-    margin-bottom: 2px;
-    /* background-color:  rgba(78, 71, 71, 0) !important; */
-    overflow: hidden;
+  margin-bottom: 2px;
+  /* background-color:  rgba(78, 71, 71, 0) !important; */
+  overflow: hidden;
 }
