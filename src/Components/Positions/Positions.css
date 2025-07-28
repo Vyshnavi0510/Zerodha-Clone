@@ -1,0 +1,18 @@
+.positions {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 0px;
+  margin: 3px 2.5rem;
+  height: 89vh;
+  color: white;
+}
+
+.pos-lefttable {
+  background-color: rgba(34, 32, 32, 0.646);
+  padding: 10px;
+}
+
+.pos-right-container {
+  background-color: rgba(34, 32, 32, 0.646);
+  width: 100%;
+}

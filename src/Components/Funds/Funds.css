@@ -1,0 +1,175 @@
+.funds {
+  display: flex;
+  gap: 4px;
+  margin: 3px 2.5rem;
+  height: 89vh;
+  margin-bottom: 0px;
+}
+
+.funds-lefttable {
+  background-color: rgba(34, 32, 32, 0.646);
+  padding: 10px;
+}
+
+.funds-right-container {
+  background-color: rgba(34, 32, 32, 0.646);
+  width: 100%;
+}
+
+.funds-btns {
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+  gap: 10px;
+}
+
+.btn-fd {
+  padding: 5px 10px;
+  background-color: rgb(51, 165, 51);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.btn-wd {
+  padding: 5px 10px;
+  background-color: rgb(22, 146, 208);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.row-1-fd {
+  display: flex;
+  /* gap: 46%; */
+  gap: 60px;
+  color: rgba(255, 255, 255, 0.837);
+  padding: 1rem;
+}
+
+.row-2-fd {
+  padding: 0px 0.5rem;
+  display: flex;
+  gap: 30px;
+}
+
+.row-2-fd .row-2-right {
+  border: 1px solid #3d3d3d;
+  width: 400px;
+  height: 530px;
+  padding: 1rem;
+}
+
+.row-2-right .grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  row-gap: 20px;
+  border-bottom: 1px solid #3d3d3d;
+  padding-bottom: 0.5rem;
+}
+
+.grid-content {
+  color: rgb(162, 160, 160);
+  font-size: 13px;
+}
+
+.row-2-right .grid-value {
+  color: rgba(255, 255, 255, 0.668);
+  font-size: 22px;
+}
+
+.row-2-right .grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  row-gap: 13px;
+  border-bottom: 1px solid #3d3d3d;
+  padding: 1rem 0px;
+}
+
+.grid-value1 {
+  color: rgba(255, 255, 255, 0.618);
+  font-size: 15px;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  row-gap: 13px;
+  padding: 1rem 0px;
+}
+
+.row-2-right .grid-value1 {
+  color: rgba(255, 255, 255, 0.618);
+  font-size: 15px;
+}
+
+.row-2-fd .row-2-left {
+  border: 1px solid #3d3d3d;
+  width: 400px;
+  height: 450px;
+  padding: 1rem;
+}
+
+.row-2-left .grid-container-1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  row-gap: 30px;
+  border-bottom: 1px solid #3d3d3d;
+  padding-bottom: 1rem;
+}
+
+.row-2-left .grid-container-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  row-gap: 13px;
+  padding-top: 1rem;
+}
+
+.row-2-left .grid-values {
+  color: rgba(255, 255, 255, 0.668);
+  font-size: 22px;
+}
+
+.row-2-left .grid-value-1 {
+  color: rgba(255, 255, 255, 0.618);
+  font-size: 15px;
+}
+
+.fd-equity {
+  display: flex;
+  justify-content: space-between;
+  width: 390px;
+}
+
+.fd-equity p {
+  flex: 1;
+}
+
+.fd-equity ul {
+  list-style: none;
+  display: flex;
+  gap: 7px;
+  font-size: 13px;
+  color: rgb(0, 132, 255);
+}
+
+.fd-commodity {
+  display: flex;
+  width: 370px;
+  justify-content: space-between;
+}
+
+.fd-commodity ul {
+  list-style: none;
+  display: flex;
+  gap: 7px;
+  font-size: 13px;
+  color: rgb(0, 132, 255);
+}
