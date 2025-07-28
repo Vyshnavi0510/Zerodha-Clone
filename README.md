@@ -17,7 +17,7 @@ Use the following credentials to explore the application:
 - Username: john@mail.com
 - Password: changeme
 
-  ## 🎯 Project Purpose
+ ## 🎯 Project Purpose
 
   This project was developed to:
 
