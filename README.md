@@ -25,7 +25,7 @@ Use the following credentials to explore the application:
 - Explore and implement routing and layout architecture
 - Experiment with clean and reusable component structures
 - Deliver a real-world style UI without backend dependencies
-  **Note:** This is a frontend-only project. No real-time market data or backend functionality is included.
+ > **Note:** This is a frontend-only project. No real-time market data or backend functionality is included.
 
 ## 🧰 Tech Stack
 
